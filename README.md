@@ -14,9 +14,6 @@
 
 ### Demo 
 
-```R
-Rscript code/your_script.R --data data/training --output results/performance.csv
-```
 * Online Reactive Visual Graphs via Shiny
 * [Link to Shiny Demo](https://tsai00150.shinyapps.io/League-of-Legend-Analysis-and-Prediction/)
 
@@ -81,11 +78,12 @@ Rscript code/your_script.R --data data/training --output results/performance.csv
 #
 ### Results
 *  Which metrics did you use? 
-	* ------------------ ADD METRICS USED ---------------------------
-	* Decision tree: ??
-	* Naive Bayes: ??
-	* Random forest: ??
-	* Svm: ??
+	* Sensitivity / Specificity / Precision / Recall / F1
+	* Decision tree: 0.9 / 0.9 / 0.91 / 0.9 / 0.9
+	* Naive Bayes: 0.92 / 0.93 / 0.92 / 0.92 / 0.92
+	* Random forest: 0.93 / 0.95 / 0.95 / 0.93 / 0.94
+	* Svm: 0.88 / 0.94 / 0.94 / 0.88 / 0.91
+
 
 * Is your improvement significant?
 	* Yes, ------------------ NEEDS UPDATE -----------------------
@@ -112,6 +110,7 @@ Rscript code/your_script.R --data data/training --output results/performance.csv
 	* caret
 	* rpart
 	* ROCR
+	* pROC
 	* e1071
 	* randomForest
 	* class
