@@ -23,7 +23,7 @@
 ## Folder organization and its related information
 #
 ### Docs
-*  --------------------- PUT PPT HERE ------------------------------
+* In "docs" folder. 
 #
 ### Data
 * Source:
@@ -35,7 +35,7 @@
 
 		* KDA = (kill+assist) / (death)
 		1. blue_ad_kda 
-		2.  blue_sup_kda 
+		2. blue_sup_kda 
 		3. blue_mid_kda 
 		4. blue_jungle_kda
 		5. blue_top_kda
@@ -78,15 +78,15 @@
 #
 ### Results
 *  Which metrics did you use? 
-	* Sensitivity / Specificity / Precision / Recall / F1
-	* Decision tree: 0.9 / 0.9 / 0.91 / 0.9 / 0.9
-	* Naive Bayes: 0.92 / 0.93 / 0.92 / 0.92 / 0.92
-	* Random forest: 0.93 / 0.95 / 0.95 / 0.93 / 0.94
-	* Svm: 0.88 / 0.94 / 0.94 / 0.88 / 0.91
+	* AUC / Accuracy / Sensitivity / Specificity / Precision / Recall / F1
+	* Decision tree: 0.9 / 0.99 / 0.9 / 0.9 / 0.91 / 0.9 / 0.9
+	* Naive Bayes: 0.92 / 0.99 / 0.92 / 0.93 / 0.92 / 0.92 / 0.92
+	* Random forest: 0.98 / 0.94 / 0.93 / 0.95 / 0.95 / 0.93 / 0.94
+	* Svm: 0.97 / 0.99 / 0.88 / 0.94 / 0.94 / 0.88 / 0.91
 
 
 * Is your improvement significant?
-	* Yes, ------------------ NEEDS UPDATE -----------------------
+	* Yes, from 0.51 to 0.98
 
 * What is the challenging part of your project?
 	* Our data mainly uses the data from the professional players, so the condition and mindset might be different from casual players.
